@@ -17,7 +17,7 @@
   </project>
 
   <!-- Vendor Trees -->
-  <project path="vendor/xiaomi/gale" name="vendor_xiaomi_bgale" remote="gale" revision="lineage-21" />
+  <project path="vendor/xiaomi/gale" name="vendor_xiaomi_gale" remote="gale" revision="lineage-21" />
 
   <!-- Xiaomi Hardwares -->
   <project path="hardware/xiaomi" name="hardware_xiaomi" remote="gale" revision="lineage-21" />
