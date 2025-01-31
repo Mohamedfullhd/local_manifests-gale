@@ -2,24 +2,26 @@
 <manifest>
 
   <remote name="gale" fetch="https://github.com/VannTakashi" />
+  <remote name="los" fetch="https://github.com/LineageOS" />
 
   <!-- Device Trees -->
-  <project path="device/xiaomi/gale" name="device_xiaomi_gale" remote="gale" revision="14" />
-
-  <!-- SELinux Policies -->
-  <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="gale" revision="lineage-21" />
-
-  <!-- Hardware Supports -->
-  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="gale" revision="lineage-21" />
+  <project path="device/xiaomi/gale" name="device_xiaomi_gale" remote="gale" revision="lineage-22.1" />
 
   <!-- Kernel Trees -->
-  <project path="device/xiaomi/gale-kernel" name="device_xiaomi_gale-kernel" remote="gale" revision="lineage-21">
+  <project path="kernel/xiaomi/gale" name="kernel_xiaomi_gale" remote="gale" revision="lineage-21">
   </project>
 
   <!-- Vendor Trees -->
-  <project path="vendor/xiaomi/gale" name="vendor_xiaomi_gale" remote="gale" revision="lineage-21" />
+  <project path="vendor/xiaomi/gale" name="vendor_xiaomi_gale" remote="gale" revision="lineage-22.1" />
 
   <!-- Xiaomi Hardwares -->
-  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="gale" revision="lineage-21" />
+  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="gale" revision="lineage-22.1" />
+
+  <!-- SELinux Policies -->
+  <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="los" revision="lineage-22.1" />
+
+  <!-- Hardware Supports -->
+  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="los" revision="lineage-22.1" />
+
 
 </manifest>
